@@ -1,0 +1,203 @@
+﻿body
+{
+    background: -webkit-linear-gradient(right, #CEF6F5 , white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #CEF6F5, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #CEF6F5, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #CEF6F5 , white); /* Standard syntax */
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    background-size: cover;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+
+p
+{
+    font-family: Arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    text-justify:auto;
+    text-align:justify;
+}
+
+h1
+{
+    text-align:left;
+    border-bottom:groove;
+}
+
+.header:before
+{
+    content:url("./assets/lineofsight.html");
+}
+
+.header 
+{
+    background-image: url(./assets/logo.png);
+    width: 480px;
+    height: 238px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float:left;
+    clear:none;
+    margin: -10px -10px -10px -10px;
+    display:block;
+}
+
+#footer
+{
+    background-image: url(./assets/skyline.png);
+    opacity:0.8;
+    bottom: 0;
+    clear:both;
+    width:100%;
+    height:300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -20px;
+    margin-right: 20px;
+}
+#yuriy
+{
+    background-image: url(./assets/yuriy1fade.png);
+    width: 550px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    left:-100px;
+    margin: 160px 100px 20px 600px;
+}
+#about
+{
+    position:absolute;
+    text-align:center;
+}
+
+#contact
+{
+    position:absolute;
+    text-align:center;
+}
+
+.highlight
+{
+    background-image:url(./assets/highlight.png);
+    background-repeat:no-repeat;
+
+}
+
+
+.pics
+{
+    position:relative;
+    height: 600px;
+    width:200px;
+    margin-top:-150px;
+    margin-left:100px;
+    float:left;
+    
+}
+
+.pics td img
+{
+    width:200px;
+    height:200px;
+}
+.tbox
+{
+    position:relative;
+    top:30px;
+    height:400px;
+    width:400px;
+    clear:left;
+    float:left;
+    display:inline-block;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+td .tbox
+{
+    margin-top: -50px;
+}
+.mult
+{
+    display:block;
+    float:left;
+    clear:left;
+}
+
+.mult .stbox
+{
+    height:400px;
+    width:400px;
+    display:inline-block;
+    float:left;
+    clear:right;
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.right
+{
+    background:rgba(2, 196, 183, .1);
+    filter: blur(100px);
+    position:fixed;
+    border-radius: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:large;
+    height:580px;
+    width:200px;
+    right:3%;
+    top:10px;
+    float:right;
+    padding-top:-50px;
+    margin-top:25px;
+    z-index:1;
+}
+
+.right ul
+{
+    border-left-style:dotted;
+    border-left-width: 5px;
+    border-left-color:#FACC2E;
+    list-style-type:none;
+}
+
+li
+{
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+ul li a
+{
+    position:relative;
+    display: block;
+    height:80px;
+    width:170px;
+    margin:10px -40px 10px -20px;
+    text-decoration:none;
+    color:black;
+    padding-bottom:-30px;
+    padding-top:20px;
+    padding-left:20px;
+    border-left:-30px;
+    border-right:-40px;
+}
+
+#map
+{
+    background-image:url(./assets/service.png);
+    position:relative;
+    width: 600px;
+    height: 450px;
+    display:inline-block;
+}
